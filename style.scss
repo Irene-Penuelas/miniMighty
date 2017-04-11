@@ -1,0 +1,46 @@
+// Author: Irene J. Penuelas
+// Date: 3.20.17
+//
+// File Name: style.scss
+// Supporting Files:
+
+@import "vendors/_bootstrap.scss";
+
+body {
+  font-family: 'Arvo', serif;
+}
+
+// NAVBAR STYLES
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.navbar-brand >img{
+  padding: 0px 7px;
+}
+
+.logo {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.nav >li >a {
+  padding: 30px 30px 30px 0px;
+}
+// CAROUSEL STYLES
+.jumbotron {
+  border: solid rgb(252, 166, 96) 20px;
+  max-width: 100%;
+  max-height: 50%;
+}
+
+//MIDDLE SECTION STYLES
+img.circle {
+  max-width: 10px;
+  max-height: 15px;
+}
+//BOTTOM SECTION STYLES
+
+//FOOTER STYLES
